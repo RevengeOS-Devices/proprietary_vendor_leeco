@@ -94,6 +94,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/x2/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:system/lib/libzeusisCameraAlgoSceneDetection.so \
     vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
+    vendor/leeco/x2/proprietary/vendor/app/LetvRemoteControl/lib/arm/libbvfixed.so:system/app/LetvRemoteControl/lib/arm/libbvfixed.so \
+    vendor/leeco/x2/proprietary/vendor/app/LetvRemoteControl/lib/arm/libyzs_usc.so:system/app/LetvRemoteControl/lib/arm/libyzs_usc.so \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
@@ -389,4 +391,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
 
 PRODUCT_PACKAGES += \
-    QFingerprintService
+    QFingerprintService \
+    UEIQuicksetSDKLeTV \
+    LetvRemoteControl
