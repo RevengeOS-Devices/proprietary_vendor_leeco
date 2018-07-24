@@ -151,6 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/leeco/msm8996-common/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:system/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/leeco/msm8996-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/app/LetvRemoteControl/lib/arm/libbvfixed.so:$(TARGET_COPY_OUT_VENDOR)/app/LetvRemoteControl/lib/arm/libbvfixed.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/app/LetvRemoteControl/lib/arm/libyzs_usc.so:$(TARGET_COPY_OUT_VENDOR)/app/LetvRemoteControl/lib/arm/libyzs_usc.so \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/charger:$(TARGET_COPY_OUT_VENDOR)/bin/charger \
@@ -723,4 +725,6 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     TimeService \
-    WfdCommon
+    WfdCommon \
+    UEIQuicksetSDKLeTV \
+    LetvRemoteControl
