@@ -482,9 +482,9 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     ims \
     uceShimService \
-    CNEService \
+#    CNEService \
     com.qualcomm.location \
-    dpmserviceapp \
+#    dpmserviceapp \
     qcrilmsgtunnel \
     TimeService
 PRODUCT_COPY_FILES += \
