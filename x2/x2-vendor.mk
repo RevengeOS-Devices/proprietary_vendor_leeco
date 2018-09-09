@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/x2/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:system/lib/libzeusisCameraAlgoSceneDetection.so \
-    vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/x2/proprietary/vendor/app/LetvRemoteControl/lib/arm/libbvfixed.so:system/app/LetvRemoteControl/lib/arm/libbvfixed.so \
     vendor/leeco/x2/proprietary/vendor/app/LetvRemoteControl/lib/arm/libyzs_usc.so:system/app/LetvRemoteControl/lib/arm/libyzs_usc.so \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
