@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/leeco/x2/proprietary/bin/ks:system/bin/ks \
     vendor/leeco/x2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/leeco/x2/proprietary/bin/ppd:system/bin/ppd \
     vendor/leeco/x2/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/leeco/x2/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/leeco/x2/proprietary/bin/tloc_daemon:system/bin/tloc_daemon \
