@@ -38,24 +38,24 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
     vendor/leeco/x2/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/leeco/x2/proprietary/etc/dts/dts-m6m8-lic.key:system/etc/dts/dts-m6m8-lic.key \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b00:system/vendor/firmware/cppf.b00 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b01:system/vendor/firmware/cppf.b01 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b02:system/vendor/firmware/cppf.b02 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b03:system/vendor/firmware/cppf.b03 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b04:system/vendor/firmware/cppf.b04 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b05:system/vendor/firmware/cppf.b05 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.b06:system/vendor/firmware/cppf.b06 \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.mbn:system/vendor/firmware/cppf.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/cppf.mdt:system/vendor/firmware/cppf.mdt \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
-    vendor/leeco/x2/proprietary/etc/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.mbn:system/etc/firmware/cppf.mbn \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.mbn:system/etc/firmware/widevine.mbn \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/leeco/x2/proprietary/etc/ecc_conf.xml:system/etc/ecc_conf.xml \
     vendor/leeco/x2/proprietary/etc/init.uei.sh:system/etc/init.uei.sh \
     vendor/leeco/x2/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
@@ -143,15 +143,15 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
     vendor/leeco/x2/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/leeco/x2/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/leeco/x2/proprietary/vendor/firmware/cyccg.cybin:system/vendor/firmware/cyccg.cybin \
     vendor/leeco/x2/proprietary/vendor/firmware/cyccg_table.cybin:system/vendor/firmware/cyccg_table.cybin \
     vendor/leeco/x2/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
