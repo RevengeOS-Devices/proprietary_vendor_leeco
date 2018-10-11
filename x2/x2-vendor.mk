@@ -38,24 +38,24 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
     vendor/leeco/x2/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/leeco/x2/proprietary/etc/dts/dts-m6m8-lic.key:system/etc/dts/dts-m6m8-lic.key \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b00:system/vendor/firmware/cppf.b00 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b01:system/vendor/firmware/cppf.b01 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b02:system/vendor/firmware/cppf.b02 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b03:system/vendor/firmware/cppf.b03 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b04:system/vendor/firmware/cppf.b04 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b05:system/vendor/firmware/cppf.b05 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.b06:system/vendor/firmware/cppf.b06 \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.mbn:system/vendor/firmware/cppf.mbn \
-    vendor/leeco/x2/proprietary/vendor/firmware/cppf.mdt:system/vendor/firmware/cppf.mdt \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
-    vendor/leeco/x2/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b00:system/vendor/firmware/cppf.b00 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b01:system/vendor/firmware/cppf.b01 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b02:system/vendor/firmware/cppf.b02 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b03:system/vendor/firmware/cppf.b03 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b04:system/vendor/firmware/cppf.b04 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b05:system/vendor/firmware/cppf.b05 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.b06:system/vendor/firmware/cppf.b06 \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.mbn:system/vendor/firmware/cppf.mbn \
+    vendor/leeco/x2/proprietary/etc/firmware/cppf.mdt:system/vendor/firmware/cppf.mdt \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
+    vendor/leeco/x2/proprietary/etc/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/leeco/x2/proprietary/etc/ecc_conf.xml:system/etc/ecc_conf.xml \
     vendor/leeco/x2/proprietary/etc/init.uei.sh:system/etc/init.uei.sh \
     vendor/leeco/x2/proprietary/etc/qvop/antispoofing.bin:system/etc/qvop/antispoofing.bin \
