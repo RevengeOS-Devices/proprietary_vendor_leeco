@@ -730,4 +730,6 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     TimeService \
+    LetvRemoteControl_preinstall \
+    UEIQuicksetSDKLeTV \
     WfdCommon
