@@ -643,7 +643,9 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     CneApp \
     IWlanService \
+    LetvRemoteControl_preinstall \
     TimeService \
+    UEIQuicksetSDKLeTV \
     PowerOffAlarm \
     dpmserviceapp \
     WfdCommon

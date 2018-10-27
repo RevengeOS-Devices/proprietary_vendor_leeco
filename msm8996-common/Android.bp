@@ -163,10 +163,32 @@ android_app_import {
 }
 
 android_app_import {
+	name: "LetvRemoteControl_preinstall",
+	owner: "leeco",
+	apk: "proprietary/vendor/app/LetvRemoteControl_preinstall/LetvRemoteControl_preinstall.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "TimeService",
 	owner: "leeco",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: ":timeservice_app_cert-legacy-um",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "UEIQuicksetSDKLeTV",
+	owner: "leeco",
+	apk: "proprietary/vendor/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
