@@ -445,7 +445,23 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:system/vendor/lib64/vendor.qti.latency@2.0.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:system/vendor/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
+    vendor/leeco/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/hw/audio.primary.msm8996.so:system/vendor/lib/hw/audio.primary.msm8996.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/hw/audio_policy.default.so:system/vendor/lib/hw/audio_policy.default.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/audio.primary.msm8996.so:system/vendor/lib64/hw/audio.primary.msm8996.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/audio_policy.default.so:system/vendor/lib64/hw/audio_policy.default.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libalsautils.so:system/vendor/lib/libalsautils.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libalsautils.so:system/vendor/lib64/libalsautils.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/hw/audio.usb.default.so:system/vendor/lib/hw/audio.usb.default.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/audio.usb.default.so:system/vendor/lib64/hw/audio.usb.default.so
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
