@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:system/lib/libzeusisCameraAlgoSceneDetection.so \
     vendor/leeco/x2/proprietary/vendor/app/LetvRemoteControl/lib/arm/libbvfixed.so:system/app/LetvRemoteControl/lib/arm/libbvfixed.so \
     vendor/leeco/x2/proprietary/vendor/app/LetvRemoteControl/lib/arm/libyzs_usc.so:system/app/LetvRemoteControl/lib/arm/libyzs_usc.so \
-    vendor/leeco/x2/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -325,8 +324,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/leeco/x2/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/leeco/x2/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -428,8 +425,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
     vendor/leeco/x2/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
     vendor/leeco/x2/proprietary/vendor/lib64/hw/fingerprint.qcom.so:system/vendor/lib64/hw/fingerprint.qcom.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libqcproximity.so:system/vendor/lib64/libqcproximity.so \
